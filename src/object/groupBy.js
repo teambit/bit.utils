@@ -5,6 +5,7 @@ import hasOwnProperty from './hasOwnProperty';
  * value checks.
  *
  * @private
+ * @name baseAssignValue
  * @param {Object} object The object to modify.
  * @param {string} key The key of the property to assign.
  * @param {*} value The value to assign.
@@ -29,8 +30,7 @@ function baseAssignValue(object, key, value) {
  * value of each key is an array of elements responsible for generating the
  * key. The iteratee is invoked with one argument: (value).
  *
- * @since 0.1.0
- * @category Collection
+ * @name groupBy
  * @param {Array|Object} collection The collection to iterate over.
  * @param {Function} iteratee The iteratee to transform keys.
  * @returns {Object} Returns the composed aggregate object.

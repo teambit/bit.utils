@@ -1,6 +1,7 @@
 /**
  * @credit taken from mikeal/sequest and modified
  * to include path and protocol prefix parsing.
+ * @name parseUrl
  * @param {string} url
  * @returns {object} { host, path, port, username }
  */

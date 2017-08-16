@@ -1,5 +1,6 @@
 /**
  * simple email validator
+ * @name isEmail
  * @param {string} email - the email to validate upon
  * @returns {boolean}
  * @example

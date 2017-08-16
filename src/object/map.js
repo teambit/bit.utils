@@ -1,5 +1,6 @@
 /**
  * Returns the results of applying the iteratee to each element of the object.
+ * @name map
  * @param {object} object
  * @param {function(val, key)} iteratee
  * @returns {object}

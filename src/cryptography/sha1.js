@@ -2,6 +2,7 @@ import crypto from 'crypto';
 
 /**
  * encrypt `data` buffer or string into a sha1 hash
+ * @name sha1
  * @param {string|Buffer}
  * @param {string} encoding
  * @returns {string} sha1 hash

@@ -2,6 +2,7 @@
 
 /**
  * compose functions into one function from right to left
+ * @name compose
  * @param {Array<function>} functions
  * @returns {function}
  * @example

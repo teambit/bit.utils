@@ -6,10 +6,7 @@
  * A `transformation` function will not be invoked if its corresponding key
  * does not exist in the evolved object.
  *
- * @func
- * @since v0.9.0
- * @category Object
- * @sig {k: (v -> v)} -> {k: v} -> {k: v}
+ * @name evolve
  * @param {Object} transformations The object specifying transformation functions to apply
  *        to the object.
  * @param {Object} object The object to be transformed.

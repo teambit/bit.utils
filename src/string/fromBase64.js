@@ -2,6 +2,7 @@
 
 /**
  * decode a string from base64
+ * @name fromBase64
  * @param {string} base64
  * @returns {string}
  * @example

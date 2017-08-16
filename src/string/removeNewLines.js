@@ -2,6 +2,7 @@
 
 /**
  * remove all new lines from a string (do not mutate the string but return new instance)
+ * @name removeNewLines
  * @param {string} str
  * @returns {string}
  */

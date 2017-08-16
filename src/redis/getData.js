@@ -1,5 +1,6 @@
 /**
  * Returns a Promise resolved with the values associated with the specified fields in the hash stored at key.
+ * @name getData
  * @param {RedisClient} cache -
  * @param {string} key - hash stored at key
  * @param {(string | string[])} fields

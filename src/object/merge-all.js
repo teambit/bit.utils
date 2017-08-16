@@ -2,6 +2,7 @@
 import merge from './merge';
 /**
  * merge an array of objects
+ * @name mergeAll
  * @param {array<object>}
  * @returns {object}
  */

@@ -1,5 +1,6 @@
 /**
  * Convert bit id to acceptable kubernetes job name
+ * @name toKubeformat
  * @param {String} bitId
  * @returns String
  * 

@@ -15,6 +15,7 @@ const cache = [
   
   /**
    * pad a string to the left.
+   * @name leftPad
    * @param {string} str string to pad
    * @param {number} len total 
    * @param {string} ch char to use for padding

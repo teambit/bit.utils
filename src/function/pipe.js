@@ -2,6 +2,7 @@
 import compose from './compose';
 /**
  * compose functions from left to right
+ * @name pipe
  * @param {Array<function>} functions
  * @returns {function}
  * @example
