@@ -4,10 +4,12 @@
         "spec": "spec.js"
     },
     "env": {
-        "compiler": "bit.env/compilers/flow@1",
-        "tester": "bit.env/testers/mocha@1"
+        "compiler": "bit.envs/compilers/flow@1",
+        "tester": "bit.envs/testers/mocha@1"
     },
-    "dependencies": {},
+    "dependencies": {
+        "bit.envs/compilers/babel": "1"
+    },
     "structure": "components/{namespace}/{name}",
     "dist": {
         "target": "dist"
