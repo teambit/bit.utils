@@ -1,14 +1,11 @@
 {
-    "sources": {
-        "impl": "impl.js",
-        "spec": "spec.js"
-    },
     "env": {
-        "compiler": "bit.envs/compilers/flow@1",
-        "tester": "bit.envs/testers/mocha@1"
+        "compiler": "bit.envs/compilers/flow@0.0.6",
+        "tester": "bit.envs/testers/mocha@0.0.5"
     },
     "dependencies": {},
-    "structure": "components/{namespace}/{name}",
+    "componentsDefaultDirectory": "components/{namespace}/{name}",
+    "packageManager": "npm",
     "dist": {
         "target": "dist"
     }
