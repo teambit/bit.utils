@@ -1,0 +1,10 @@
+/**
+@name extractFileNameFromPath
+@description Recieves a file path and returns the file name
+@param {string} filePath
+@returns {string}
+*/
+export default function(filePath) {
+    let fileName = filePath.split('/').pop();
+    return fileName.split('.')[0];
+}
