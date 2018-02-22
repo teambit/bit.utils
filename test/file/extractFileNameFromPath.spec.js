@@ -1,16 +1,17 @@
 import {expect} from 'chai';
 import extractFileNameFromPath from '../../src/file/extractFileNameFromPath';
+import path from 'path';
 
 describe('extractFileNameFromPath', () => {
     it('should extract file name from full path', () => {
-        const path = 'src/temp/name.js';
-        const filename = extractFileNameFromPath(path);
+        const fullPath = `src${path.sep}temp${path.sep}name.js`;
+        const filename = extractFileNameFromPath(fullPath);
         return expect(filename).to.eql('name');
     });
 
     it('should extract file name from partial path', () => {
-        const path = 'name.js';
-        const filename = extractFileNameFromPath(path);
+        const fullPath = 'name.js';
+        const filename = extractFileNameFromPath(fullPath);
         return expect(filename).to.eql('name');
     });
 });

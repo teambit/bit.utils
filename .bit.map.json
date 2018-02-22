@@ -530,7 +530,7 @@
         "mainFile": "src/validation/isString.js",
         "origin": "AUTHORED"
     },
-    "bit.utils/file/extract-file-name-from-path@0.0.2": {
+    "bit.utils/file/extract-file-name-from-path@0.0.3": {
         "files": [
             {
                 "relativePath": "test/file/extractFileNameFromPath.spec.js",
