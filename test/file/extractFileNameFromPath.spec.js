@@ -14,4 +14,10 @@ describe('extractFileNameFromPath', () => {
         const filename = extractFileNameFromPath(fullPath);
         return expect(filename).to.eql('name');
     });
+
+    it('should extract file name from path with more than one dot', () => {
+        const fullPath = 'name.spec.js';
+        const filename = extractFileNameFromPath(fullPath);
+        return expect(filename).to.eql('name.spec');
+    });
 });

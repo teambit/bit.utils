@@ -8,5 +8,5 @@ import path from 'path';
 */
 export default function(filePath) {
     let fileName = filePath.split(path.sep).pop();
-    return fileName.split('.')[0];
+    return fileName.substring(0, fileName.lastIndexOf('.'));
 }

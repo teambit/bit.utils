@@ -530,21 +530,21 @@
         "mainFile": "src/validation/isString.js",
         "origin": "AUTHORED"
     },
-    "bit.utils/file/extract-file-name-from-path@0.0.3": {
+    "bit.utils/file/extract-file-name-from-path@0.0.5": {
         "files": [
             {
+                "name": "extractFileNameFromPath.spec.js",
                 "relativePath": "test/file/extractFileNameFromPath.spec.js",
-                "test": true,
-                "name": "extractFileNameFromPath.spec.js"
+                "test": true
             },
             {
+                "name": "index.js",
                 "relativePath": "src/file/extractFileNameFromPath/index.js",
-                "test": false,
-                "name": "index.js"
+                "test": false
             }
         ],
         "mainFile": "src/file/extractFileNameFromPath/index.js",
         "origin": "AUTHORED"
     },
-    "version": "0.12.5"
+    "version": "0.12.8"
 }
