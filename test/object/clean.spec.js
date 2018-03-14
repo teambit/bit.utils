@@ -1,5 +1,6 @@
 import { expect } from 'chai';
 import clean from '../../src/object/clean';
+import mockery from 'mockery';
 
 function forEach(obj, cb) {
   const keys = Object.keys(obj);

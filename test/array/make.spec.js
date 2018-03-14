@@ -1,4 +1,5 @@
 import { expect } from 'chai';
+import mockery from 'mockery';
 
 const isNilMock = (val) => val === null || val === undefined;
 

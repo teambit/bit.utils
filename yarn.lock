@@ -108,6 +108,10 @@ lodash.isnull@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash.isnull/-/lodash.isnull-3.0.0.tgz#fafbe59ea1dca27eed786534039dd84c2e07c56e"
 
+mockery@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/mockery/-/mockery-2.1.0.tgz#5b0aef1ff564f0f8139445e165536c7909713470"
+
 normalize-space-x@^1.3.2:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/normalize-space-x/-/normalize-space-x-1.3.2.tgz#f4e3984aea6cb9e26cf584224051ad0f18277498"

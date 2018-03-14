@@ -1,5 +1,6 @@
 import chai from 'chai';
 import mergeAll from '../../src/object/merge-all';
+import mockery from 'mockery';
 const should = chai.should();
 
 describe('merge-all', () => {
